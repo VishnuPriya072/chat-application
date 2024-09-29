@@ -35,20 +35,10 @@ chat-application/ │
 3. Enable **Email/Password Authentication** under the **Authentication** section.
 4. Create a Firestore database in **Test mode**.
 
-### **2. Configuration**
+### **
 
-Replace the configuration in `firebase-config.js` with your Firebase project settings:
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-};
+//
 
-firebase.initializeApp(firebaseConfig);
 3. Running the Application
 Open index.html or register.html in a browser.
 You can also use a local web server (e.g., npx http-server) to run the project locally.
@@ -81,5 +71,19 @@ Acknowledgments
 mathematica
 This updated version includes your GitHub repository URL.
 
+2. Configuration**
+
+Replace the configuration in `firebase-config.js` with your Firebase project settings:
+```javascript
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+};
+
+firebase.initializeApp(firebaseConfig);
 
 
