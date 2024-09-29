@@ -1,0 +1,27 @@
+# Ignore node_modules if using Node.js
+node_modules/
+
+# Ignore Firebase configuration file
+firebase-config.js
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore local environment settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
